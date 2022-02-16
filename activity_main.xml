@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tableLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF9800"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10pt"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="30pt"
+            android:layout_height="30pt"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center|right"
+            android:text="RED  "
+            android:textColor="#EF1909"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="30pt"
+            android:layout_height="30pt"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center|left"
+            android:text="0"
+            android:textColor="#EF1909"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="30pt"
+            android:layout_height="30pt"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center|right"
+            android:text="BLUE  "
+            android:textColor="#082DF6"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="30pt"
+            android:layout_height="30pt"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center|left"
+            android:text="0"
+            android:textColor="#082DF6"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button10"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:background="#8BC34A"
+            android:fontFamily="sans-serif-black"
+            android:onClick="restart"
+            android:text="RE-START" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5pt"
+        android:layout_marginBottom="5pt"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button1"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:background="#FFEB3B"
+            android:onClick="buttonClick"
+            android:textSize="34sp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button2"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginStart="5pt"
+            android:layout_marginLeft="5pt"
+            android:background="#FFEB3B"
+            android:onClick="buttonClick"
+            android:textSize="34sp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button3"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginStart="5pt"
+            android:layout_marginLeft="5pt"
+            android:background="#FFEB3B"
+            android:onClick="buttonClick"
+            android:textSize="34sp"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5pt"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button4"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:background="#FFEB3B"
+            android:onClick="buttonClick"
+            android:textSize="34sp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button5"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginStart="5pt"
+            android:layout_marginLeft="5pt"
+            android:background="#FFEB3B"
+            android:onClick="buttonClick"
+            android:textSize="34sp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button6"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginStart="5pt"
+            android:layout_marginLeft="5pt"
+            android:background="#FFEB3B"
+            android:onClick="buttonClick"
+            android:textSize="34sp"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button7"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:background="#FFEB3B"
+            android:onClick="buttonClick"
+            android:textSize="34sp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button8"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginStart="5pt"
+            android:layout_marginLeft="5pt"
+            android:background="#FFEB3B"
+            android:onClick="buttonClick"
+            android:textSize="34sp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button9"
+            android:layout_width="40pt"
+            android:layout_height="40pt"
+            android:layout_marginStart="5pt"
+            android:layout_marginLeft="5pt"
+            android:background="#FFEB3B"
+            android:onClick="buttonClick"
+            android:textSize="34sp"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </TableRow>
+</TableLayout>
